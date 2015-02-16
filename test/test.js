@@ -15,9 +15,9 @@ chai.use(chaihttp);
 
 var expect = chai.expect;
 
-var testText1 = '{ "wife": "Kim", "cat": "Alistair" }';
+var testText1 = '{ "surname": "Lebowski", "drink": "White Russian" }';
 
-describe('The server: ', function() {
+describe('The Dude: ', function() {
 
   before(function() {
     fs.writeFile('./data/test-get.json', testText1);
@@ -25,7 +25,7 @@ describe('The server: ', function() {
 
   it('should GET a file', function(done) {
     chai.request('localhost:3000')
-      .get('/sam/test-get')
+      .get('/dude/test-get')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
@@ -40,7 +40,7 @@ describe('The server: ', function() {
 
   it('should POST a file', function(done) {
     chai.request('localhost:3000')
-      .post('/sam/test-post')
+      .post('/dude/test-post')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
@@ -54,7 +54,7 @@ describe('The server: ', function() {
 
   it('should PUT a file', function(done) {
     chai.request('localhost:3000')
-      .put('/sam/test-put')
+      .put('/dude/test-put')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
@@ -72,7 +72,7 @@ describe('The server: ', function() {
 
   it('should PATCH a file', function(done) {
     chai.request('localhost:3000')
-      .patch('/sam/test-patch')
+      .patch('/dude/test-patch')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
@@ -90,7 +90,7 @@ describe('The server: ', function() {
 
   it('should DELETE a file', function(done) {
     chai.request('localhost:3000')
-      .del('/sam/test-delete')
+      .del('/dude/test-delete')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
