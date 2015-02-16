@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 // Sam Hamm
-// HTTP server with simple persistence
+// Build a REST framework
 // Assignment for Code Fellows JavaScript Development Accelerator
 // Due 2/16/15
 // Collaborators: Trish Buckenberger, Gaye Bulut, Rory Sterley
@@ -100,7 +99,3 @@ describe('The server: ', function() {
   });
 
 });
-
-=======
-'use strict';
->>>>>>> 59be7a19db63e58d9dc9ace6f3399770a526749a
