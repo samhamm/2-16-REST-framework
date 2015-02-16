@@ -32,4 +32,6 @@ dude.at();
 dude.read();
 dude.oppress();
 dude.mix();
-dude.trash();
+// dude.trash();
+
+dude.trash('fuck');
