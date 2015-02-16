@@ -28,3 +28,6 @@ node_modules
 
 # "Mac droppings"
 *.DS_Store
+
+# data directory
+data
