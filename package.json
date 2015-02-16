@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "2-16-server-w-persistence",
   "version": "1.0.0",
   "description": "Assignment for Code Fellows JavaScript Development Accelerator: write a HTTP server with simple persistence",
+=======
+  "name": "2-16-REST-framework",
+  "version": "1.0.0",
+  "description": "Assignment for Code Fellows JaveScript Development Accelerator: write a RESTful HTTP server with simple persistence",
+>>>>>>> 59be7a19db63e58d9dc9ace6f3399770a526749a
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,14 +17,24 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/samhamm/2-16-server-w-persistence.git"
+=======
+    "url": "https://github.com/samhamm/2-16-REST-framework.git"
+>>>>>>> 59be7a19db63e58d9dc9ace6f3399770a526749a
   },
   "author": "Sam Hamm <samhamm@gmail.com>",
   "license": "MIT",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/samhamm/2-16-server-w-persistence/issues"
   },
   "homepage": "https://github.com/samhamm/2-16-server-w-persistence",
+=======
+    "url": "https://github.com/samhamm/2-16-REST-framework/issues"
+  },
+  "homepage": "https://github.com/samhamm/2-16-REST-framework",
+>>>>>>> 59be7a19db63e58d9dc9ace6f3399770a526749a
   "devDependencies": {
     "chai": "^2.0.0",
     "grunt": "^0.4.5",

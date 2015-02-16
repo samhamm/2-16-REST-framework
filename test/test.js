@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Sam Hamm
 // HTTP server with simple persistence
 // Assignment for Code Fellows JavaScript Development Accelerator
@@ -100,3 +101,6 @@ describe('The server: ', function() {
 
 });
 
+=======
+'use strict';
+>>>>>>> 59be7a19db63e58d9dc9ace6f3399770a526749a
