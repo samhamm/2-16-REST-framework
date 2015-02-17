@@ -6,7 +6,11 @@
 
 'use strict';
 
-var dude = require('./dude.js');
+var dude = require('./dude');
+
+dude.wakeUp(); // this starts the server
+
+dude.addResource('rug');
 
 // Instructions can be added following these comments.
 // The syntax is simple.
@@ -28,12 +32,8 @@ var dude = require('./dude.js');
 
 //Get to it!
 
-dude.addResource('rug');
-
 // dude.at();
 // dude.read();
 // dude.oppress();
 // dude.mix();
 // dude.trash();
-
-dude.wakeUp(); // this starts the server
