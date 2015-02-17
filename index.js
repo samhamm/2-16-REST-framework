@@ -28,10 +28,12 @@ var dude = require('./dude.js');
 
 //Get to it!
 
-dude.at();
-dude.read();
-dude.oppress();
-dude.mix();
+dude.addResource('rug');
+
+// dude.at();
+// dude.read();
+// dude.oppress();
+// dude.mix();
 // dude.trash();
 
-dude.trash('fuck');
+dude.wakeUp(); // this starts the server

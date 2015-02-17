@@ -6,7 +6,7 @@
 
 'use strict';
 
-require('../server');
+require('../dude');
 var fs = require('fs');
 var chai = require('chai');
 var chaihttp = require('chai-http');
