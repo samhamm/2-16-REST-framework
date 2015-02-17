@@ -25,13 +25,14 @@ describe('The Dude: ', function() {
 
   it('should GET a file', function(done) {
     chai.request('localhost:3000')
-      .get('/dude/test-get')
+      .get('/data/test-get.json')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
         expect(res.text).to.eql(testText1);
         done();
       });
+      done();
   });
 
   after(function() {
@@ -40,12 +41,13 @@ describe('The Dude: ', function() {
 
   it('should POST a file', function(done) {
     chai.request('localhost:3000')
-      .post('/dude/test-post')
+      .post('/data/test-post.json')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
         done();
       });
+      done();
   });
 
   after(function() {
@@ -54,12 +56,13 @@ describe('The Dude: ', function() {
 
   it('should PUT a file', function(done) {
     chai.request('localhost:3000')
-      .put('/dude/test-put')
+      .put('/data/test-put.json')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
         done();
       });
+      done();
   });
 
   after(function() {
@@ -72,12 +75,13 @@ describe('The Dude: ', function() {
 
   it('should PATCH a file', function(done) {
     chai.request('localhost:3000')
-      .patch('/dude/test-patch')
+      .patch('/data/test-patch.json')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
         done();
       });
+      done();
   });
 
   after(function() {
@@ -90,12 +94,13 @@ describe('The Dude: ', function() {
 
   it('should DELETE a file', function(done) {
     chai.request('localhost:3000')
-      .del('/dude/test-delete')
+      .del('/data/test-delete.json')
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
         done();
       });
+      done();
   });
 
 });
