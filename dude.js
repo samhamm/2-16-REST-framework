@@ -13,7 +13,7 @@ var resources = [''];
 
 module.exports = {
 
-  addResource: function(name) {
+  letsGoBowling: function(name) {
     resources.push(name);
     for(var i = 0; i < resources.length; i++) {
       routes[resources[i]] = router;
