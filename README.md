@@ -4,6 +4,8 @@
 
 Coded by Sam Hamm as an assignment for the Code Fellows JavaScript Development Accelerator in February 2015. Collaborators at various points have included Tricia Buckenberger, Gaye Bulut, and Rory Sterley.
 
+Note: This framework is technically a minimally function framework, but it has a ways to go.
+
 Instructions
 --
 In the main JS file of the project, use these functions:
